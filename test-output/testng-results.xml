@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigate to https://plexusworldwide.com/about]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-13T11:03:58 MST" name="Default suite" finished-at="2025-02-13T11:04:06 MST" duration-ms="8448">
+    <groups>
+    </groups>
+    <test started-at="2025-02-13T11:03:58 MST" name="Default test" finished-at="2025-02-13T11:04:06 MST" duration-ms="8448">
+      <class name="com.example.demo1.MainPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.demo1.MainPageTest@4dbad37]" started-at="2025-02-13T11:03:58 MST" name="setUp" finished-at="2025-02-13T11:04:04 MST" duration-ms="6632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="retrieveData()[pri:1, instance:com.example.demo1.MainPageTest@4dbad37]" started-at="2025-02-13T11:04:04 MST" name="retrieveData" finished-at="2025-02-13T11:04:05 MST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveData -->
+        <test-method signature="navitageToPage()[pri:2, instance:com.example.demo1.MainPageTest@4dbad37]" started-at="2025-02-13T11:04:05 MST" name="navitageToPage" finished-at="2025-02-13T11:04:06 MST" duration-ms="743" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to https://plexusworldwide.com/about]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navitageToPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.demo1.MainPageTest@4dbad37]" started-at="2025-02-13T11:04:06 MST" name="tearDown" finished-at="2025-02-13T11:04:06 MST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.demo1.MainPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
